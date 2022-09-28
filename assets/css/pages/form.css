@@ -1,0 +1,149 @@
+.letter-section {
+  margin-top: 50px;
+}
+
+.letter-section .form-header {
+  font-weight: 500;
+  text-align: center;
+  font-size: 30px;
+  color: var(--hoverBlueColor);
+  margin-bottom: 30px;
+}
+
+.letter-section .form-warning {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: gray;
+}
+
+.letter-section .form-radio {
+  margin-bottom: 20px;
+}
+
+.form-radio span {
+  margin-right: 20px;
+  margin-top: 3px;
+}
+
+.form-radio label {
+  padding-right: 20px;
+  padding-top: 3px;
+}
+
+.form-check-input:checked {
+  background-color: #5a7092;
+  border-color: #5a7092;
+}
+
+.input-container {
+  padding-bottom: 1em;
+}
+
+.left-inner-addon {
+  position: relative;
+}
+
+.left-inner-addon input,
+.left-inner-addon textarea {
+  padding: 13px 13px 13px 35px;
+  background-color: rgb(233, 243, 248);
+  border-color: transparent;
+}
+
+.file-input {
+  padding-left: 45px !important;
+}
+
+.left-inner-addon input:focus,
+.left-inner-addon textarea:focus {
+  background-color: rgb(246, 250, 252);
+  border-color: #8b94a1;
+  box-shadow: 0 0 5px 0 #8b94a1;
+}
+
+.left-inner-addon input:active,
+.left-inner-addon textarea:active {
+  background-color: rgb(255, 255, 255);
+  border-color: #9ea8b4;
+  box-shadow: 0 0 10px 0 #9ea8b4;
+}
+
+.left-inner-addon i {
+  position: absolute;
+  padding: 17px 12px;
+  pointer-events: none;
+  color: #8b94a1;
+}
+
+.letter-btn {
+  border-radius: 5px;
+  padding: 10px 30px;
+  border: 2px solid transparent;
+  background-color: #7a8594;
+  color: #fff;
+  font-size: 18px;
+  transition: 0.3s all ease-in-out;
+}
+
+.letter-btn:hover {
+  background-color: #5b626b;
+  transform: scale(1.05);
+}
+
+.letter-btn:active {
+  background-color: #5b626b;
+  transform: scale(1);
+  box-shadow: 0 0 10px 0 #9ea8b4;
+}
+
+.form-info {
+  margin-bottom: 20px;
+  line-height: 22px;
+  color: gray;
+}
+
+@media only screen and (max-width: 576px) {
+  .form-radio span {
+    font-size: 12px;
+    margin-right: 10px;
+    margin-top: 7px;
+  }
+
+  .form-radio label {
+    font-size: 11px;
+    padding-right: 10px;
+    padding-top: 7px;
+  }
+
+  .letter-section .form-header {
+    font-size: 20px;
+  }
+
+  .form-info {
+    line-height: 20px;
+    font-size: 12px;
+  }
+
+  .left-inner-addon input,
+  .left-inner-addon textarea {
+    padding: 10px 10px 10px 35px;
+    font-size: 12px;
+  }
+
+  .file-input {
+    padding-left: 45px !important;
+  }
+
+  .left-inner-addon i {
+    padding: 12px 12px;
+  }
+
+  .letter-btn {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+
+  .letter-section .form-warning {
+    font-size: 12px;
+  }
+}
