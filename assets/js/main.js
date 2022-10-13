@@ -72,25 +72,4 @@ $(() => {
     $(".menu-section").css({ position: "static" });
     fixMenu();
   });
-
-  new WOW().init();
-
-  $('.owl-carousel1').owlCarousel({
-      autoplay: true,
-      autoplayTimeout: 5000,
-      loop: false,
-      margin: 60,
-      nav: false,
-      responsive: {
-          576: {
-              items: 2
-          },
-          768: {
-              items: 3
-          },
-          992: {
-              items: 4
-          }
-      }
-  })
 });

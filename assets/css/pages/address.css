@@ -4,7 +4,7 @@
 
 .address-section .address-title {
     font-weight: 700;
-    color: var(--lightBlueColor);
+    color: var(--mainBlueColor);
     font-size: 26px;
     text-align: center;
 }
@@ -23,7 +23,7 @@
 }
 
 .address-items .address-item:not(:first-child):hover > .address-text {
-    color: var(--hoverBlueColor);
+    color: var(--mainBlueColor);
 }
 
 .address-items .address-icon {
@@ -32,7 +32,7 @@
 }
 
 .address-items .address-icon i {
-    color: var(--hoverBlueColor);
+    color: var(--mainBlueColor);
     font-size: 20px;
     transition: .3s all ease-in-out;
 }

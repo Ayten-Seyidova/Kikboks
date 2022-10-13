@@ -57,6 +57,28 @@
     transform: scale(0.95);
 }
 
+.sportman-section .read-more {
+    color: var(--mainBlueColor);
+    background-color: transparent;
+    padding: 8px 16px;
+    padding-right: 0;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+    border: 1px solid var(--mainBlueColor);
+    width: 100px;
+    box-shadow: 0 0 10px 0 lightgray;
+    transition: .3s all ease-in-out;
+}
+
+.sportman-section .read-more:hover {
+    box-shadow: 0 0 10px 0 gray;
+}
+
+.sportman-section .read-more:active {
+    transform: scale(0.95);
+}
+
 .btn-animation {
     font-size: 14px;
     margin-left: 3px;
