@@ -283,7 +283,7 @@
     <main>
       <section class="news-section main-page container">
         <div class="row">
-          <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8 left-news">
+          <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-12 left-news">
             <div
               id="carouselExampleFade"
               class="carousel slide carousel-fade left-slider"
@@ -515,7 +515,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 right-news">
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 right-news">
             <a href="" class="right-item">
               <div class="position-relative">
                 <div class="right-img">
@@ -555,11 +555,11 @@
                 </div>
                 <div class="right-text">
                   <h2 class="right-title">
-                    Azərbaycanın daha üç rayonunda ağırlıqqaldırma zalları
+                    Azərbaycanın daha üç rayonunda zalları
                     açılıb
                   </h2>
                   <p class="right-content">
-                    İsmayıllı, Qax və Balakən rayonlarında yeni ağırlıqqaldırma
+                    İsmayıllı, Qax və Balakən ağırlıqqaldırma
                     zalları istifadəyə verilib
                   </p>
                 </div>
@@ -591,7 +591,7 @@
             <div class="col-6 photo-gallery gallery-item">
               <h3>Fotoqalereya</h3>
               <div class="gallery row">
-                <div class="col-6">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                   <a
                     href="./assets/img/photo1.png"
                     class="gallery-img"
@@ -599,7 +599,7 @@
                     ><img class="d-block" src="./assets/img/photo1.png"
                   /></a>
                 </div>
-                <div class="col-6">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                   <a
                     href="./assets/img/photo2.png"
                     class="gallery-img"
@@ -607,7 +607,7 @@
                     ><img class="d-block" src="./assets/img/photo2.png"
                   /></a>
                 </div>
-                <div class="col-6">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                   <a
                     href="./assets/img/photo3.png"
                     class="gallery-img"
@@ -615,7 +615,7 @@
                     ><img class="d-block" src="./assets/img/photo3.png"
                   /></a>
                 </div>
-                <div class="col-6">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                   <a
                     href="./assets/img/photo4.png"
                     class="gallery-img"
@@ -628,7 +628,7 @@
             <div class="col-6 video-gallery gallery-item">
               <h3>Videoqalereya</h3>
               <div class="row">
-                <div class="col-6">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                   <iframe
                     class="video-item"
                     src="https://www.youtube.com/embed/5Z2Hmh5jqco"
@@ -638,7 +638,7 @@
                     allowfullscreen
                   ></iframe>
                 </div>
-                <div class="col-6">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                   <iframe
                     class="video-item"
                     src="https://www.youtube.com/embed/kBbZprWAkmA"
@@ -648,7 +648,7 @@
                     allowfullscreen
                   ></iframe>
                 </div>
-                <div class="col-6">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                   <iframe
                     class="video-item"
                     src="https://www.youtube.com/embed/T6TBxOn5-3g"
@@ -658,7 +658,7 @@
                     allowfullscreen
                   ></iframe>
                 </div>
-                <div class="col-6">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                   <iframe
                     class="video-item"
                     src="https://www.youtube.com/embed/5Z2Hmh5jqco"
@@ -752,11 +752,14 @@
     $(".owl-carousel1").owlCarousel({
       autoplay: true,
       autoplayTimeout: 5000,
-      loop: false,
+      loop: true,
       margin: 60,
       nav: false,
       responsive: {
-        576: {
+        0: {
+          items: 2,
+        },
+        460: {
           items: 3,
         },
         768: {
